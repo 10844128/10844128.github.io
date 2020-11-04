@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/navbar.css">
+
+  <link rel="stylesheet" href="css/animation.css">
+  <link rel="stylesheet" href="css/video.css">
+  <link rel="stylesheet" href="css/footer.css">
+  
+  <title>表單回饋</title>
+
+  <style type="text/css">
+    @import url("css/text.css");
+  </style>
+</head>
+
+<body>
+
+  <div class="roots">
+    <header>
+      <div class=" root pos-f-t">
+        <div class="root-navbar collapse " id="navbarToggleExternalContent">
+          <div class="r-navbar-item p-4 ">
+            <nav>
+              <a href="introduction.html">關於中原</a>
+              <a href="video.html">影片介紹</a>
+              <a href="pic.html">組員介紹</a>
+              <a href="face.html">返回首頁</a>
+            </nav>
+          </div>
+        </div>
+        <nav class="r-button navbar navbar-dark">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"
+            aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="">中原大學</span>
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <div>
+
+      <img class="squareone" src="imgs/222.gif">
+      <div class="squaretwo">
+        <P class="squaretwo > p ">「Contact us」</P>
+      </div>
+    </div>
+
+    
+    <div>
+      <img src="imgs/002.gif" class="image"><div style="max-height700px; overflow:hidden;"></div>
+      <form method="POST" action="">
+        <font class="cc">意見回饋單</font>
+        <ul style=" list-style-type: none">
+          <li>
+            <input type="text" name="name1" size="20" placeholder="Name" width="8" class="tct" autocomplete="off">
+          </li>
+          <li class="tt"> <input type="radio" name="sex" value="男生" checked>男生
+            <input type="radio" name="sex" value="女生">女生
+            <input type="radio" name="sex" value="其他">其他</li>
+          <li><input type="text" name="emailaddress" size="30" placeholder="emailaddress：" class="tct"
+              autocomplete="off">
+          </li>
+          <li> <select size="1" name="question" class="tct">
+              <option>問題類別（請選擇）</option>
+              <option>報錯</option>
+              <option>意見反饋</option>
+              <option>了解更多</option>
+            </select>
+          </li>
+          <li>
+            <textarea name="wish" cols="40" rows="5" wrap="hard" placeholder="問題描述" class="tct"
+              autocomplete="off"></textarea>
+
+          </li>
+        </ul>
+        <button type="submit" class="txt">送出</button>
+        <input type="hidden" name="action" value="send">
+        <button type="submit" class="txt">重填</button>
+        <input type="hidden" name="action" value="cancel">
+      </form>
+    </div>
+
+    <div class="hashtag">
+      <div>
+        <div class="squarefive">
+          <P class="squarefive > p ">@SCHOOL.GENIE</P>
+        </div>
+      </div>
+    </div>
+
+    <footer class="a_footer">
+
+      <div class="a_footer_wrapper">
+
+        <ul>Chung Yuan Christian University</ul>
+        <ul>Department of Information Management</ul>
+        <ul>School History Room Introduction</ul>
+
+        <uL></uL>
+      </div>
+      <div class="copyright">Copyright ©-2020 Ray.Hsieh Peimeng.Ge Ming.Zhe Leo.WU</div>
+    </footer>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
