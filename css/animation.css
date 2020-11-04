@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.roots{
+    overflow: hidden;}
+
+.squareone {
+    width: 100%;
+    height: 80%;
+    background: black;
+    animation-name: fade-down;/*執行的動畫名字*/
+    animation-duration: 5s;/*動畫要跑多久*/
+    animation-iteration-count:999; /*執行幾次，1就是執行1次不會重複*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+@keyframes fade-down {
+    0% {
+        transform: translate(0,0px);
+        transform: scale(1.);
+        opacity: 0;
+    }
+    100% {
+        transform: translate(0,0px);
+        transform: scale(1.);
+        opacity: 1;
+    }
+}
+
+.squaretwo {
+    height: 100px;
+    background: black;
+    animation-name: fade-left;
+    animation-duration: 5s;
+    animation-iteration-count:3; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    
+
+}
+@keyframes fade-left {
+    0% {
+        transform: translateX(100%);
+        
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0%);
+        
+        opacity: 1;
+    }
+}
+
+.squaretwo > p {
+	font-size: 60px;
+	font-family:風體;
+	width: 740px;
+    margin-top: 20px; 
+    font-weight:bold;
+    color:white; 
+}
+
+.squarefive {
+    height: 100px;
+    background: black;
+    animation-name: fade-left;
+    animation-duration: 8s;
+    animation-iteration-count:999; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.squarefive > p {
+	font-size: 30px;
+	font-family:風體;
+    margin-top: 20px; 
+    color:white; 
+    letter-spacing: 60px;
+    text-align:center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+
+.squarethird {
+    width: 400px;
+    height: 100px;
+    background: black;
+    animation-name: fade-right;
+    animation-duration: 3s;
+    animation-iteration-count:999; 
+}
+
+@keyframes fade-right {
+    0% {
+        transform: translateX(-100px);
+        
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0px);
+        
+        opacity: 1;
+    }
+}
+
+.squarethird > p {
+	font-size: 60px;
+	font-family:風體;
+	width: 400px;
+    text-align:left;
+    margin-top: 20px; 
+    font-weight:bold;
+    color:white;
+}
+
+.squarefour {
+    width: 600px;
+    height: 100px;
+    background: black;
+    animation-name: fade-right;
+    animation-duration: 5s;
+    animation-iteration-count:999; 
+    
+}
+/*@keyframes fade-right {
+    0% {
+        transform: translateX(-100px);
+        
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0px);
+        
+        opacity: 1;
+    }
+}*/
+
+.squarefour > p {
+	font-size: 60px;
+	font-family:風體;
+	width: 400px;
+    text-align:left
+    margin-top: 20px; 
+    font-weight:bold;
+    color:white;
+}
+
+.squaresix {
+    width: 800px;
+    height: 100px;
+    background: #222;
+    animation-name: fade-right;
+    animation-duration: 15s;
+    animation-iteration-count:999; 
+    /*padding: 10px 50px 0px 0px;*/
+    margin: 10px 0px 0px 0px;
+    
+}
+
+.squaresix > p {
+	font-size: 48px;
+	font-family:風體;
+	width: 800px;
+    text-align:left
+    margin-top: 20px; 
+    color:white;
+    
+}
+
+.squareseven {
+    height: 100px;
+    background: black;
+    animation-name: fade-left;
+    animation-duration: 8s;
+    animation-iteration-count:1; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    
+
+}
+
+.squareseven > p {
+	font-size: 30px;
+	font-family:風體;
+    margin-top: 20px; 
+    color:white; 
+    letter-spacing: 60px;
+    text-align:center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+

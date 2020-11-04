@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+@font-face {
+    font-family: '風體';
+    src: url('font/Wind-Regular.ttf') ,
+         url('font/Wind-Regular.otf') ,
+           
+  }
+
+  .roots{
+      
+  }
+.lego{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin: 120px auto 60px auto;
+}
+
+.lego > p {
+    margin:20px;
+    font-family: 風體;
+    font-size: 36px;
+    letter-spacing: 15px;　   
+}
+
+
+
+.lego > h1  {
+    text-decoration: none;
+    width: 180px;
+    color:white;
+    font-family: 風體;
+    font-size: 180px;
+    margin: 250px auto 100px auto;
+    
+}
+    
+.lego > h1:hover{
+    font-family: 風體;
+    color:black;
+    transition:color 1s;
+    -moz-transition:color 1s;
+    -webkit-transition:color 1s;
+    -o-transition:color 1s;    
+}
+
+
+.lego > h2 {
+    text-decoration: none;
+    width: 72px;
+    color:white;
+    font-family: 風體;
+    font-size: 72px;
+    margin: 10px auto 10px auto;
+}
+
+.lego > h2:hover{
+    font-family: 風體;
+    color:black;
+    transition:color 3s;
+    -moz-transition:color 3s;
+    -webkit-transition:color 3s;
+    -o-transition:color 3s;    
+}
+
+.lego > h3 {
+    text-decoration: none;
+    width: 150px;
+    color:white;
+    font-family: 風體;
+    font-size: 150px;
+    margin: 1px auto 1px auto;
+    
+}
+
+.lego > h3:hover{
+    font-family: 風體;
+    color:black;
+    transition:color .8s;
+    -moz-transition:color .8s;
+    -webkit-transition:color .8s;
+    -o-transition:color .8s;    
+}
+
+
+
+.imgs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin: 2%;
+}
+
+.root{
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.root > video{
+    margin: 20px;
+    width: 840vw;
+    height: 520vw;
+
+}
+.root > p {
+    cursor: pointer;
+    margin:5% 30% 20% 30%;
+    font-family: 風體;
+    font-size: 36px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+
+}
+
+.tile  {
+    text-decoration: none;
+    width: 1000px;
+    font-family: 風體;
+    font-weight:bold;
+    font-size: 48px;
+    margin: 50px auto 100px auto;
+    letter-spacing: 33px;　   
+    
+}
+
+.mag  {
+    text-decoration: none;
+    width: 1000px;
+    font-family: 風體;
+    font-weight:bold;
+    font-size: 36px;
+    margin: 200px auto 200px auto;
+    letter-spacing: 20px;　   
+    
+}
+    
+
